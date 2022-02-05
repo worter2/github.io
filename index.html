@@ -6,15 +6,15 @@
   <meta name="viewport"
     content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-  <title>SLOVKA</title>
-  <meta name="description" content="Uhádni slovo 🇸🇰 Máš 6 pokusov. Lacný klon WORDLE.">
+  <h1>WORDS ⟲</h1>
+  <meta name="description" content="Guess the word. You have 6 attempts. WORDLE clone.">
 
   <!-- FB Meta Tags -->
-  <meta property="og:url" content="https://slovka.sk">
+  <meta property="og:url" content="https://words2.github.io">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Slovka - uhádni slovo!">
-  <meta property="og:description" content="Uhádni slovo 🇸🇰 Máš 6 pokusov. Lacný klon WORDLE.">
-  <meta property="og:image" content="https://yablko.github.io/slovka-hra-uhadni-slovo/dist/img/slovka_og_1200x630.png">
+  <meta property="og:title" content="WORDS">
+  <meta property="og:description" content="Guess the word. You have 6 attempts. WORDLE clone.">
+  <meta property="og:image" content="https://words2.github.io/img/ukexample.png">
 
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 
@@ -33,15 +33,15 @@
 
 <body>
   <header>
-    <h1>WORDS<span class="heart">♥️</span></h1>
+    <h1>WORDS ⟲</h1>
     <p>
-      podľa <a target="_blank" href="https://www.powerlanguage.co.uk/wordle/">wordle</a>.
-      hádaj slovo. <a href="#" data-micromodal-trigger="modal-rules">pravidlá</a>.
+      original version and rules <a target="_blank" href="https://www.powerlanguage.co.uk/wordle/">wordle</a>.
+      code taken from <a target="_blank" href="https://yablko.github.io/slovka-hra-uhadni-slovo/dist/">slovka</a>.
     </p>
   </header>
 
   <main class="board">
-    <p class="tooltip animate__animated">to slovo nepoznám</p>
+    <p class="tooltip animate__animated">Try Again</p>
 
     <div class="row">
       <div data-index="1" class="tile"></div>
@@ -127,65 +127,10 @@
       </div>
 
       <div class="winner">
-        <button class="tile large" id="again">hraj znova ⟲</button>
+        <button class="tile large" id="again">Play Again ⟲</button>
       </div>
-    </section>
-
-    <section class="modal micromodal-slide" id="modal-rules" aria-hidden="false">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close="">
-        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-rules-title">
-          <button class="modal__close" aria-label="Close modal" data-micromodal-close=""></button>
-          <article class="modal__content" id="modal-rules-content">
-            <p>
-              Uhádni slovo. Máš 6 pokusov. <br>
-              Zadaj prvý pokus. Písmená sa vyfarbia:
-            </p>
-
-            <div class="row">
-              <div data-index="1" class="tile present">r</div>
-              <div data-index="2" class="tile present">o</div>
-              <div data-index="3" class="tile correct">z</div>
-              <div data-index="4" class="tile wrong">u</div>
-              <div data-index="5" class="tile wrong">m</div>
-            </div>
-
-            <p class="middle">
-              <span class="present">ŽLTÁ</span> znamená, že písmeno je v slove. <br>
-              <span class="correct">ZELENÁ</span>, že je na správnom mieste.
-            </p>
-
-            <div class="row">
-              <div data-index="1" class="tile correct">n</div>
-              <div data-index="2" class="tile correct">á</div>
-              <div data-index="3" class="tile correct">z</div>
-              <div data-index="4" class="tile correct">o</div>
-              <div data-index="5" class="tile correct">r</div>
-            </div>
-
-            <p>
-              Môžeš písať <strong>bez diakritiky</strong>. <br>
-              Bez množných čísel. Až na výnimky ako <strong>TRAKY</strong>.
-            </p>
-
-            <p class="middle">
-              <strong>Beta verzia</strong>. Chýba slovo? Máš feedback? <br>
-              Napíš mi na <a href="https://www.instagram.com/yablko/">instagram</a>.
-            </p>
-          </article>
-        </div>
-      </div>
-      <canvas></canvas>
     </section>
   </footer>
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HR7BRN6B9B"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-HR7BRN6B9B');
-  </script>
 </body>
 
 </html>
