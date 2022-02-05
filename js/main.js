@@ -13196,7 +13196,7 @@ const judgeResult = () => {
       if (tries === 1) tooltip('WOW!');
       else if (tries === 2 || tries === 3) tooltip('PARÁDA!');
       else if (tries === 4 || tries === 5) tooltip('máš to!');
-      else if (tries === 6) tooltip('uff, tesnotka!');
+      else if (tries === 6) tooltip('That was close');
     }, 1500);
 
     // keyboard
