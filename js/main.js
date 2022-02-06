@@ -12977,7 +12977,7 @@ const allWords = [
  * ANIMATIONS
  */
 
-// CONFETTI
+/* CONFETTI
 let myConfetti = confetti.create(document.querySelector('canvas'), {
   resize: true,
   useWorker: true
@@ -12987,6 +12987,7 @@ myConfetti({
   particleCount: 100,
   spread: 160
 })
+*/
 
 // ADD NEW LETTER
 const animateTileBounce = (tile) => {
