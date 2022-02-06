@@ -13123,7 +13123,7 @@ const submitWord = () => {
     let lastLetter = word.slice(-1);
 
     if (lastLetter.toLowerCase() === 'y') {
-      tooltip("y");
+      tooltip("?");
     }
     // else if (['a', 'e', 'y', 'i'].includes(lastLetter)) {
     //   tooltip('žiadne prídavné mená');
