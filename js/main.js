@@ -150,10 +150,6 @@ const submitWord = () => {
   // is this a real word ?
   if (!noAccentWords.includes(noAccents(word))) {
     let lastLetter = word.slice(-1);
-
-    if (lastLetter.toLowerCase() === 'y') {
-      tooltip("Plural?");
-    }
     // else if (['a', 'e', 'y', 'i'].includes(lastLetter)) {
     //   tooltip('žiadne prídavné mená');
     // }
