@@ -13121,6 +13121,10 @@ const submitWord = () => {
   // is this a real word ?
   if (!noAccentWords.includes(noAccents(word))) {
     let lastLetter = word.slice(-1);
+
+    if (lastLetter.toLowerCase() === 'y') {
+      tooltip("y");
+    }
     // else if (['a', 'e', 'y', 'i'].includes(lastLetter)) {
     //   tooltip('žiadne prídavné mená');
     // }
