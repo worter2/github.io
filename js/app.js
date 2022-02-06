@@ -97,7 +97,7 @@ const judgeResult = () => {
 	if (noAccents(word) === noAccentSolution) {
 		animateTileDance(currentRow());
 	} else if (tries >= maxTries) {
-		alert(`riešenie bolo: ${solution.toUpperCase()}`);
+		alert(`solution: ${solution.toUpperCase()}`);
 		youVeryMuchLose();
 	} else {
 		word = "";

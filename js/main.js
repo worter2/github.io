@@ -13122,13 +13122,13 @@ const submitWord = () => {
     let lastLetter = word.slice(-1);
 
     if (lastLetter.toLowerCase() === 'y') {
-      tooltip("bez množných čísel");
+      tooltip("Plural?");
     }
     // else if (['a', 'e', 'y', 'i'].includes(lastLetter)) {
     //   tooltip('žiadne prídavné mená');
     // }
     else {
-      tooltip('to slovo nepoznám');
+      tooltip('?');
     }
 
     animateRowShake(currentRow());
@@ -13194,9 +13194,9 @@ const judgeResult = () => {
     // tooltip
     setTimeout(() => {
       if (tries === 1) tooltip('WOW!');
-      else if (tries === 2 || tries === 3) tooltip('PARÁDA!');
-      else if (tries === 4 || tries === 5) tooltip('máš to!');
-      else if (tries === 6) tooltip('That was close');
+      else if (tries === 2 || tries === 3) tooltip('GREAT!');
+      else if (tries === 4 || tries === 5) tooltip('WELL DONE!');
+      else if (tries === 6) tooltip('THAT WAS CLOSE!');
     }, 1500);
 
     // keyboard
@@ -13216,7 +13216,7 @@ const judgeResult = () => {
   } else if (tries >= maxTries) {
     youVeryMuchLose();
     setTimeout(() => {
-      alert(`riešenie bolo: ${solution.toUpperCase()}`);
+      alert(`solution: ${solution.toUpperCase()}`);
       window.location.reload();
     }, 2000);
   } else {
