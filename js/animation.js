@@ -5,10 +5,10 @@ const animateTileBounce = (tile) => {
 
 // SUBMIT NON-EXISTANT WORD
 const animateRowShake = (row) => {
-    row.classList.animate('animate__shake')
+    row.classList.remove('animate__shakeX')
 
     setTimeout(() => {
-        row.classList.add('animate__animated', 'animate__shake')
+        row.classList.add('animate__animated', 'animate__shakeX')
     }, 0)
 }
 
