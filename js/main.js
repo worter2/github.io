@@ -246,7 +246,7 @@ const allWords = [
     } else if (tries >= maxTries) {
       youVeryMuchLose();
       setTimeout(() => {
-        alert(`solution: ${solution.toUpperCase()}`);
+        alert(`LÖSUNG: ${solution.toUpperCase()}`);
         window.location.reload();
       }, 2000);
     } else {
