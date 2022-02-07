@@ -29,9 +29,9 @@ header p {
 	font-weight: bold;
 }
 
-header h6 {
-	margin-bottom: -40px !important;
-	margin-right: 300px !important;
+h6 {
+	margin-bottom: -35px !important;
+	text-align: center !important;
 }
 
 header span {
