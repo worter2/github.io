@@ -29,6 +29,11 @@ header p {
 	font-weight: bold;
 }
 
+header h6 {
+	margin-top: 20px;
+	margin-right: 150px;
+}
+
 header span {
 	color: #fff;
 	padding: 3px 6px;
