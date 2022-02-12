@@ -33,12 +33,12 @@
 	width: 3rem;
 	height: 4rem;
 
-	color: #000;
+	color: #D7DADD;
 	font-size: 16px;
 
 	border-width: 1px;
 	border-radius: 8px;
-	box-shadow: 1px 1px 0px #000;
+	
 	border-color: #565758;
 
 	cursor: pointer;
@@ -52,12 +52,12 @@
 }
 
 .keyboard .tile:not(.present, .correct, .wrong, .double) {
-	background: #e9e9ed;
+	background: #818385;
 }
 
 .keyboard .tile:not(.present, .correct, .wrong, .double):hover,
 .keyboard .tile:not(.present, .correct, .wrong, .double):active {
-	background: #d0d0d7;
+	background: #B0B0B0;
 }
 
 .keyboard .tile.correct,
@@ -69,7 +69,7 @@
 
 .keyboard .double {
 	width: 6rem;
-	background: #bbbbbb;
+	background: #818385;
 }
 
 .keyboard .large {
