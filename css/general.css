@@ -7,13 +7,14 @@ body {
 
 body {
 	color: #d8d8d8;
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
 	text-align: center;
-    background: #121213;
-    display: flex;
+  background: #121213;
+  display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-    min-height: 100vh;
+  min-height: 100vh;
 	min-height: -webkit-fill-available;
 }
 
@@ -24,7 +25,6 @@ html {
 .tooltip {
   color: black;
   font-weight: 900;
-  font-family: Avenir;
   background-color: rgba(255, 255, 255, .85);
   text-transform: uppercase;
 

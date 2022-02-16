@@ -35,7 +35,6 @@
 
 	color: #D7DADD;
 	font-size: 16px;
-	font-family: Avenir;
 
 	border-width: 1px;
 	border-radius: 7px;
@@ -78,7 +77,6 @@
 }
 
 .keyboard .enter {
-	font-family: Avenir;
 	font-size: 1rem;
 }
 
@@ -113,7 +111,6 @@
 	}
 
 	.keyboard .enter {
-		font-family: Avenir;
 		font-size: 0.875rem;
 	}
 
