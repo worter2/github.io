@@ -14,6 +14,7 @@ header p {
 }
 
 header h1 {
+	font-family: Avenir;
 	color: #818385;
 	font-size: 1.75rem;
 	font-weight: 900;
@@ -27,6 +28,7 @@ header h1 {
 header p {
 	color: #818385;
 	font-size: 16px;
+	font-family: Avenir;
 }
 
 header span {
@@ -44,10 +46,12 @@ header a {
 	header h1 {
 		color: #818385;
 		font-size: 1.5rem;
+		font-family: Avenir;
 		letter-spacing: 0.05rem;
 	}
 
 	header p {
+		font-family: Avenir;
 		font-size: 0.85rem;
 	}
 

@@ -9,6 +9,7 @@
 	padding: 1px 4px;
 	border-radius: 3px;
 	font-weight: 600;
+	font-family: Avenir;
 	color: #000;
 }
 
@@ -85,6 +86,7 @@
 .modal__title {
 	margin-top: 0;
 	margin-bottom: 0;
+	font-family: Avenir;
 	font-weight: 600;
 	font-size: 1.25rem;
 	line-height: 1.25;
@@ -102,6 +104,7 @@
 }
 
 .modal__close:before {
+	font-family: Avenir;
 	font-size: 1rem;
 	color: rgb(215, 218, 220);
 	content: "\2715";
@@ -119,6 +122,7 @@
 }
 
 .modal__btn {
+	font-family: Avenir;
 	font-size: 0.875rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
