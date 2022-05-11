@@ -42,7 +42,7 @@
 	align-items: center;
 	justify-content: center;
 
-	border: 2px solid #4A4B4C;
+	border: 2px solid #404142;
 	/* background: #121213; */
 }
 
@@ -51,8 +51,8 @@
 }
 
 .wrong {
-	border-color: #4A4B4C;
-	background-color: #4A4B4C;
+	border-color: #404142;
+	background-color: #404142;
 }
 
 .present {
